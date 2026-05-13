@@ -7,8 +7,11 @@ module.exports={
         ],
         format:[
             "progress",
-            "json:reports/cucumber-jsonReport.json",
-            "html:reports/cucumber-htmlReport.html"
+           "json:reports/cucumber-jsonReport.json",
+            "html:reports/cucumber-htmlReport.html",
+             "junit:reports/cucumber-junitReport.xml",
+             "json:reports/cucumber-jsonReport.json"
+
         ]
     }
 }
