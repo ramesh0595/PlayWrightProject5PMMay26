@@ -6,7 +6,9 @@ module.exports={
             "./Hooks/*.js"
         ],
         format:[
-            "progress"
+            "progress",
+             "junit:reports/cucumber-junitReport.xml",
+             "json:reports/cucumber-jsonReport.json"
         ]
     }
 }
